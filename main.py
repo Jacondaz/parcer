@@ -17,6 +17,7 @@ def main():
         list_with_time.append(time.text)
     total_list = [(track, time) for track, time in zip(list_with_traks, list_with_time)]
     print(total_list)
+    print()
 
 
 if __name__ == "__main__":
